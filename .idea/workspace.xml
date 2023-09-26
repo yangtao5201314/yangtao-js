@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a698d38-547b-48eb-86e8-300b39f0c97e" name="更改" comment="fix:添加方法名">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commitlint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/_metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vue.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/sidebar/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/theme/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/theme/styles/var.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/删除数组中重复的元素.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/根据元素值移除数组的元素.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/根据函数名称移除函数数组的元素.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/检测所有元素是否符合要求.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/统计数组中重复元素的位置.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/获取两个数组之间不同的元素.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/获取两个数组之间相同的元素.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/获取数组中指定个数的最大元素.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/获取数组中指定个数的最小元素.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/获取数组二相对于数组一不同的元素.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/计算数组中元素的出现次数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/计算数组元素的总和.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/过滤数组中的唯一值.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/过滤数组中的非唯一值.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/随机化数组元素的顺序.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array_object/删除对象数组中指定属性值重复的元素.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array_object/根据对象数组的属性值移除数组的元素.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array_object/根据对象数组的键值在数组中查找对象.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array_object/统计对象数组中指定属性值重复的位置.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array_object/计算对象数组中指定属性值的出现次数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array_object/计算对象数组指定属性值的平均值.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array_object/计算对象数组指定属性值的总和.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/boolean/获得一个随机的布尔值.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/date/判断指定日期是不是n天前.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/date/判断指定日期是不是n天后.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/date/判断指定日期是不是今天.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/date/判断是否达到指定时间.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/date/获取两个日期之间的差值.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/date/获取指定日期是所在年份的第几天.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/date/获取指定日期的相应模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/methods/判断变量的类型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/methods/异步加载script脚本.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/methods/模拟延迟.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/methods/滚动到页面顶部.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/methods/获取变量的类型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/methods/获取当前页面的URL.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/methods/获取浏览器Cookie的值.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/number/判断一个数字是不是偶数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/number/判断一个数字是不是奇数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/number/判断数字是否可以整除.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/number/生成范围内的随机数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/number/生成范围内的随机整数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/number/计算参数的平均值.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/object/去除对象中的空属性，null，undefined.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/object/翻转对象的key，value值.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/12小时制时间.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/16进制颜色.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/24小时制时间.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/GUID或UUID.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/QQ号.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/base64格式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/ip-v4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/mac地址.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/不能包含字母.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/中国手机号(严格).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/中国手机号(复杂).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/中国手机号(简单).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/中文.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/中文名字.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/中文和数字.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/同时含有数字和英文字母.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/图片链接地址.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/大写英文.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/子网掩码.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/密码强度校验.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/小写英文.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/帐号是否合法.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/座机.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/微信号.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/必须带端口号的网址.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/手机机身码(IMEI).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/护照.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/数字.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/数字和字母.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/整数(不包含0).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/整数(包含0).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/日期(年月日).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/日期(年月日时分秒).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/正整数(不包含0).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/正整数(包含0).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/火车车次.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/版本号.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/用户名校验.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/统一社会信用代码(严格).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/统一社会信用代码(宽松).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/网址.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/考试分数(150分).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/英文.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/英文名字.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/视频链接地址.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/负整数(不包含0).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/负整数(包含0).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/货币金额.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/货币金额，支持负数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/身份证号（一二代）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/身份证号（一代）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/身份证号（二代）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/身份证号（台湾）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/身份证号（澳门）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/身份证号（香港）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/车牌号（全）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/车牌号（新能源）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/车牌号（非新能源）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/邮政编码.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/邮箱.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/reg/银行卡号.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/string/判断一个字符串是否为空.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/string/反转字符串.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/string/字符串去重.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/string/将字符串中每个单词的首字母转为大写.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/string/将字符串按字母顺序排列.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/string/将字符串的首字母转换成大写字母.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/string/将字符串的首字母转换成小写字母.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/string/检验一个字符串是否是回文.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/string/检验指定索引处是不是某个字符.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/arrDifference.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/arrRemoveEle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/arrRemoveFunEle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/arrSimilarity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/arrWithoutDupli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/countDuplicatePositions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/countFrequency.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/filterNoUnique.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/filterUnique.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/getDifferenceFrom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/getTotal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/isAllPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/maxArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/minArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/shuffleArr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_object/arrObjectWithoutDupli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_object/arrRemoveObjEle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_object/countObjDuplicatePositions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_object/countObjFrequency.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_object/findObjectInArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_object/getAverageBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_object/getTotalBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_object/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boolean/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boolean/randomBoolean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/date/dayOfYear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/date/getDateOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/date/getDayDiff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/date/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/date/isScheduled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/date/isToday.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/date/isTomorrow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/date/isYesterday.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/function/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methods/getCookieBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methods/getCurrentUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methods/getType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methods/imitateDelay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methods/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methods/isType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methods/loadScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methods/scrollToTop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/getAverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/isDivisible.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/isEvenNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/isOddNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/randomInRange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/randomIntegerInRange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/removeEmptyProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/reverseObjectKeyValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/accountReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/achievementReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/allCarsReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/bankReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/baseReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/carsReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/chineseNameReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/chineseReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/codsReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/colorReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/complexTelReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/currencyReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/dateHmsReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/easyTelReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/editionReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/emailReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/englishNameReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/englishReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/hmsReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/idFirstReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/idHongKongReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/idMacaoReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/idReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/idSecondReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/idTaiwanReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/imeiReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/imgUrlReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/integerReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/ipv4Reg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/landlineReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/lowercaseReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/macReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/moneyReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/ncReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/negativeIntegerReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/newCarsReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/nlBothReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/nlReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/noLetterReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/noZeroIntegerReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/numberReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/passportReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/passwordReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/positiveIntegerReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/postalReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/qqReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/strictCodsReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/strictTelReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/subnetReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/trainReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/uppercaseReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/urlReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/urlWithPortReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/usernameReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/uuidReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/videoUrlReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/wechatReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/ymdReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/ymdhmsReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/zeroNegativeIntegerReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reg/zeroPositiveIntegerReg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/alphabetical.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/capitalizeWord.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/checkCharAtIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/isPalindrome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/isStringEmpty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/removeStrDuplicates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/reverseString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/toLowerFirstLetter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/toUpperFirstLetter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="2VsTbIuD0hO4mp9SLaI4824VSwL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/yangtao/Desktop/我的文件/博客素材/个人网站搭建/yangtao-js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="4a698d38-547b-48eb-86e8-300b39f0c97e" name="更改" comment="" />
+      <created>1695623860437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695623860437</updated>
+      <workItem from="1695623861772" duration="351000" />
+      <workItem from="1695691045906" duration="577000" />
+      <workItem from="1695696812033" duration="713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix:初始化项目" />
+    <MESSAGE value="fix:添加方法名" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:添加方法名" />
+  </component>
+</project>
