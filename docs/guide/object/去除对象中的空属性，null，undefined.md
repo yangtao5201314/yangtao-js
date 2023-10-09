@@ -7,7 +7,7 @@
 ## 语法
 
 ```js
-import { removeEmptyProperties } from 'warbler-js';
+import { removeEmptyProperties } from 'yangtao-js';
 const result = removeEmptyProperties(obj，options);
 ```
 
@@ -48,7 +48,7 @@ const removeEmptyProperties = (obj, options = {}) => {
 ## 例子
 
 ```js
-import { removeEmptyProperties } from 'warbler-js';
+import { removeEmptyProperties } from 'yangtao-js';
 
 const obj = {
   name: 'warbler',

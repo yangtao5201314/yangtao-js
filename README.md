@@ -1,6 +1,6 @@
 ## 说明文档
 
-👉👉 [pea-js](http://www.warblerfe.top/warbler/js)
+👉👉 [yangtao-js](https://tinyurl.com/yangtao-js)
 
 ## 开发者
 
@@ -10,7 +10,7 @@
 
 👉👉 [github](https://github.com/yangtao5201314)
 
-👉👉 [个人博客主页](开发中)
+👉👉 [个人博客主页](https://tinyurl.com/yangtaoWeb)
 
 ## 版本升级
 

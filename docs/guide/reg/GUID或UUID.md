@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { uuidReg } from 'warbler-js';
+import { uuidReg } from 'yangtao-js';
 const result = uuidReg(value);
 ```
 
@@ -29,7 +29,7 @@ const uuidReg = (value) => {
 ## 例子
 
 ```js
-import { uuidReg } from 'warbler-js';
+import { uuidReg } from 'yangtao-js';
 const result1 = uuidReg('0842F912-3053-24A1-CE07-23610A13C565');
 const result2 = uuidReg('30b18fc7-7e3a-451d-a09f-f15b338f91bd');
 

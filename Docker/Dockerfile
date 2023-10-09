@@ -11,5 +11,5 @@ EXPOSE 5273
 CMD ["nginx","-g","daemon off;"]
 
 
-# docker build -f ./Docker/Dockerfile -t warbler-js . --no-cache
-# docker run -d --name warbler-js-instance -p 5273:5273 --restart=always warbler-js
+# docker build -f ./Docker/Dockerfile -t yangtao-js . --no-cache
+# docker run -d --name yangtao-js-instance -p 5273:5273 --restart=always yangtao-js

@@ -3,7 +3,7 @@
 ## 语法
 
 ```js
-import { getCookieBy } from 'warbler-js';
+import { getCookieBy } from 'yangtao-js';
 const result = getCookieBy('name');
 ```
 
@@ -24,7 +24,7 @@ const getCookieBy = (name) => `; ${document.cookie}`.split(`; ${name}=`).pop().s
 ## 例子
 
 ```js
-import { getCookieBy } from 'warbler-js';
+import { getCookieBy } from 'yangtao-js';
 const result = getCookieBy('name');
 console.log(result); //=>'warbler'
 ```

@@ -3,7 +3,7 @@
 ## 语法
 
 ```js
-import { getCurrentUrl } from 'warbler-js';
+import { getCurrentUrl } from 'yangtao-js';
 const result = getCurrentUrl();
 ```
 
@@ -24,7 +24,7 @@ const getCurrentUrl = () => window.location.href;
 ## 例子
 
 ```js
-import { getCurrentUrl } from 'warbler-js';
+import { getCurrentUrl } from 'yangtao-js';
 const result = getCurrentUrl();
 console.log(result); //=>http://www.warblerfe.top/warbler/js
 ```

@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { baseReg } from 'warbler-js';
+import { baseReg } from 'yangtao-js';
 const result = baseReg(value);
 ```
 
@@ -30,7 +30,7 @@ const baseReg = (value) => {
 ## 例子
 
 ```js
-import { baseReg } from 'warbler-js';
+import { baseReg } from 'yangtao-js';
 const result1 = baseReg('data:image/gif;base64,xxxx==');
 const result2 = baseReg('data:image/gif;base63,xxxx==');
 

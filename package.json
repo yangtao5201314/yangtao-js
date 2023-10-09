@@ -1,6 +1,6 @@
 {
   "name": "yangtao-js",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A JavaScript utility library , JavaScript 实用工具库",
   "main": "src/index.js",
   "scripts": {
@@ -20,14 +20,14 @@
   "keywords": [
     "JavaScript",
     "utils",
-    "warbler-js",
+    "yangtao-js",
     "warbler-fe"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alanhzw/warbler-js.git"
+    "url": "git+https://github.com/yangtao5201314/yangtao-js"
   },
-  "homepage": "http://www.warblerfe.top/warbler/js",
+  "homepage": "https://tinyurl.com/yangtao-js",
   "author": "warbler",
   "license": "ISC",
   "devDependencies": {
@@ -60,7 +60,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/alanhzw/warbler-js/issues"
+    "url": "https://github.com/alanhzw/yangtao-js/issues"
   },
   "directories": {
     "doc": "docs"

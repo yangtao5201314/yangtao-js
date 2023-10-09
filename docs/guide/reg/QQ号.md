@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { qqReg } from 'warbler-js';
+import { qqReg } from 'yangtao-js';
 const result = qqReg(value);
 ```
 
@@ -29,7 +29,7 @@ const qqReg = (value) => {
 ## 例子
 
 ```js
-import { qqReg } from 'warbler-js';
+import { qqReg } from 'yangtao-js';
 const result1 = qqReg('969800462');
 const result2 = qqReg('1741847465');
 

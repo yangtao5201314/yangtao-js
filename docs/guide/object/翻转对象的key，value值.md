@@ -3,7 +3,7 @@
 ## 语法
 
 ```js
-import { reverseObjectKeyValue } from 'warbler-js';
+import { reverseObjectKeyValue } from 'yangtao-js';
 const result = reverseObjectKeyValue(obj);
 ```
 
@@ -30,7 +30,7 @@ const reverseObjectKeyValue = (obj) => {
 ## 例子
 
 ```js
-import { reverseObjectKeyValue } from 'warbler-js';
+import { reverseObjectKeyValue } from 'yangtao-js';
 
 const obj = {
   apple: 'fruit',

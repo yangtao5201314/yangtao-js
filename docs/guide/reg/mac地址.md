@@ -5,7 +5,7 @@
 ## 语法
 
 ```js
-import { macReg } from 'warbler-js';
+import { macReg } from 'yangtao-js';
 const result = macReg(value);
 ```
 
@@ -29,7 +29,7 @@ const macReg = (value) => {
 ## 例子
 
 ```js
-import { macReg } from 'warbler-js';
+import { macReg } from 'yangtao-js';
 const result1 = macReg('38:f9:d3:4b:f5:51');
 const result2 = macReg('00-0C-18-CA-E4-55');
 

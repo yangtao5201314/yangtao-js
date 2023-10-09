@@ -19,7 +19,7 @@ const getDayDiff = (date1, date2, unit) => {
 };
 
 /** 用法
-import { getDayDiff } from 'warbler-js'
+import { getDayDiff } from 'yangtao-js'
 // 以天为单位
 const result1 = getDayDiff("2021,9,15",'2021,9,16','day')
 // 以小时为单位

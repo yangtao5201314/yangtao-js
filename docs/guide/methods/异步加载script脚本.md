@@ -3,7 +3,7 @@
 ## 语法
 
 ```js
-import { loadScript } from 'warbler-js';
+import { loadScript } from 'yangtao-js';
 loadScript('https://cdn.bootcdn.net/ajax/libs/vConsole/3.7.0/vconsole.min.js');
 ```
 
@@ -33,7 +33,7 @@ const loadScript = (src) =>
 ## 例子
 
 ```js
-import { loadScript } from 'warbler-js';
+import { loadScript } from 'yangtao-js';
 const loadVConsole = async () => {
   await loadScript('https://cdn.bootcdn.net/ajax/libs/vConsole/3.7.0/vconsole.min.js');
 };

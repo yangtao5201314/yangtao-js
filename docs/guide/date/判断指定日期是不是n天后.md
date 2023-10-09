@@ -3,7 +3,7 @@
 ## 语法
 
 ```js
-import { isTomorrow } from 'warbler-js';
+import { isTomorrow } from 'yangtao-js';
 const result = isTomorrow(date, n);
 ```
 
@@ -33,7 +33,7 @@ const isTomorrow = (date, n = 1) => {
 ## 例子
 
 ```js
-import { isTomorrow } from 'warbler-js';
+import { isTomorrow } from 'yangtao-js';
 // 测试日期为2021-09-26
 const result1 = isTomorrow(new Date());
 const result2 = isTomorrow('2021-09-27', 1);

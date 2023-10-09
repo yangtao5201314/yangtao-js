@@ -4,7 +4,7 @@ import sidebar from './sidebar/index';
 export default defineConfig({
   outDir: '../dist',
   lang: 'en-US',
-  title: 'warbler-js',
+  title: 'yangtao-js',
   description: 'A JavaScript utility library',
   lastUpdated: true,
   appearance: 'dark',
@@ -13,7 +13,7 @@ export default defineConfig({
     outlineTitle: '大纲',
     sidebarMenuLabel: '目录',
     returnToTopLabel: '回到顶部',
-    siteTitle: 'warbler-js',
+    siteTitle: 'yangtao-js',
     nav: [],
     docFooter: {
       prev: '上一页',
