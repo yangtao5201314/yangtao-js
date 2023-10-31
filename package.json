@@ -1,6 +1,6 @@
 {
   "name": "yangtao-js",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A JavaScript utility library , JavaScript 实用工具库",
   "main": "src/index.js",
   "scripts": {

@@ -43,6 +43,9 @@ import shuffleArr from './shuffleArr';
 // 统计数组中重复元素的位置
 import countDuplicatePositions from './countDuplicatePositions';
 
+// 在数组中获取最大连续数
+import maxlianxu from './maxlianxu';
+
 export {
   filterUnique,
   filterNoUnique,
@@ -59,4 +62,5 @@ export {
   getDifferenceFrom,
   shuffleArr,
   countDuplicatePositions,
+  maxlianxu,
 };
