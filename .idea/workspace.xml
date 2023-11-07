@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a698d38-547b-48eb-86e8-300b39f0c97e" name="更改" comment="fix:更改方法名">
+    <list default="true" id="4a698d38-547b-48eb-86e8-300b39f0c97e" name="更改" comment="fix:新增数组，快速排序和冒泡排序 方法">
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/冒泡排序默认从小到大.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/array/快速排序从小到大排序.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/maoPao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/quickSort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,25 +36,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/yangtao/Desktop/我的文件/博客素材/个人网站搭建/yangtao-js",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yangtao/Desktop/我的文件/博客素材/个人网站搭建/yangtao-js&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -62,6 +69,9 @@
       <workItem from="1695810999724" duration="124000" />
       <workItem from="1696838225756" duration="5114000" />
       <workItem from="1698401996999" duration="55000" />
+      <workItem from="1698745394404" duration="887000" />
+      <workItem from="1699342759301" duration="23000" />
+      <workItem from="1699346621847" duration="142000" />
     </task>
     <task id="LOCAL-00001" summary="fix:添加方法名">
       <option name="closed" value="true" />
@@ -79,7 +89,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696842885618</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix:更新在数组中获取最大连续数">
+      <option name="closed" value="true" />
+      <created>1698745524252</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698745524252</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix:更新在数组中获取最大连续数">
+      <option name="closed" value="true" />
+      <created>1698745600940</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698745600940</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +115,8 @@
     <MESSAGE value="fix:初始化项目" />
     <MESSAGE value="fix:添加方法名" />
     <MESSAGE value="fix:更改方法名" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix:更改方法名" />
+    <MESSAGE value="fix:更新在数组中获取最大连续数" />
+    <MESSAGE value="fix:新增数组，快速排序和冒泡排序 方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:新增数组，快速排序和冒泡排序 方法" />
   </component>
 </project>

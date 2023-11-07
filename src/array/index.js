@@ -46,6 +46,12 @@ import countDuplicatePositions from './countDuplicatePositions';
 // 在数组中获取最大连续数
 import maxlianxu from './maxlianxu';
 
+// 冒泡排序 默认从小到大
+import maoPao from './maoPao';
+
+// 快速排序 默认从小到大
+import quickSort from './quickSort';
+
 export {
   filterUnique,
   filterNoUnique,
