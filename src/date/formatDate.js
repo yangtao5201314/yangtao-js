@@ -1,0 +1,117 @@
+/**格式化日期
+ * @method formatDate
+ * @param {Number} time 要传入的时间戳
+ * @param {String} format 要传入的时间格式参数 在方法中查看 例：YYYY年MM月DD日 ，for now：几分钟前
+ * @returns
+ */
+const formatDate = function(time, format) {
+	time = time.toString();
+	if (time.length != 10 && time.length != 13) return "时间格式不正确！";
+	if (!format) return "缺少时间格式参数";
+	let date = new Date(time.length == 10 ? +time * 1000 : +time),
+		year = date.getFullYear(),
+		month =
+		date.getMonth() + 1 < 10 ?
+		`0${date.getMonth() + 1}` :
+		date.getMonth() + 1,
+		day = date.getDate() < 10 ? `0${date.getDate()}` : date.getDate(),
+		hour = date.getHours() < 10 ? `0${date.getHours()}` : date.getHours(),
+		minute =
+		date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes(),
+		second =
+		date.getSeconds() < 10 ? `0${date.getSeconds()}` : date.getSeconds(),
+		now = new Date(),
+		result = "";
+	switch (format) {
+		case "Year":
+			result = year;
+			break;
+		case "Month":
+			result = month;
+			break;
+		case "Date":
+			result = day;
+			break;
+		case "Hour":
+			result = hour;
+			break;
+		case "minute":
+			result = minute;
+			break;
+		case "second":
+			result = second;
+			break;
+		case "YYYY.MM.DD":
+			result = `${year}.${month}.${day}`;
+			break;
+		case "YYYY-MM-DD":
+			result = `${year}-${month}-${day}`;
+			break;
+		case "YYYY-MM-DD HH:MM":
+			result = `${year}-${month}-${day} ${hour}:${minute}`;
+			break;
+		case "YYYY-MM-DD HH:MM:SS":
+			result = `${year}-${month}-${day} ${hour}:${minute}:${second}`;
+			break;
+		case "YYYY年MM月DD日":
+			result = `${year}年${month}月${day}日`;
+			break;
+		case "YYYY年MM月DD日 HH:MM":
+			result = `${year}年${month}月${day}日 ${hour}:${minute}`;
+			break;
+		case "YYYY年MM月DD日 HH:MM:SS":
+			result = `${year}年${month}月${day}日 ${hour}:${minute}:${second}`;
+			break;
+		case "YYYY/MM/DD":
+			result = `${year}/${month}/${day}`;
+			break;
+		case "YYYY/MM/DD HH:MM":
+			result = `${year}/${month}/${day} ${hour}:${minute}`;
+			break;
+		case "YYYY/MM/DD HH:MM:SS":
+			result = `${year}/${month}/${day} ${hour}:${minute}:${second}`;
+			break;
+		case "HH:MM":
+			result = `${hour}:${minute}`;
+			break;
+		case "HH:MM:SS":
+			result = `${hour}:${minute}:${second}`;
+			break;
+		case "for now":
+			let leftTime = (now.getTime() - date.getTime()) / 1000,
+				pastSecond = Math.floor(leftTime % 60),
+				pastMinute = Math.floor((leftTime / 60) % 60),
+				pastHour = Math.floor((leftTime / 3600) % 24),
+				pastDay = Math.floor((leftTime / 86400) % 30),
+				pastMonth = Math.floor((leftTime / 2629744) % 12),
+				pastYear = Math.floor(leftTime / 31556926);
+			if (pastYear > 0) {
+				result = `${pastYear}年前`;
+				break;
+			} else if (pastMonth > 0) {
+				result = `${pastMonth}月前`;
+				break;
+			} else if (pastDay > 0) {
+				result = `${pastDay}天前`;
+				break;
+			} else if (pastHour > 0) {
+				result = `${pastHour}小时前`;
+				break;
+			} else if (pastMinute > 0) {
+				result = `${pastMinute}分钟前`;
+				break;
+			} else {
+				result = "刚刚";
+				break;
+			}
+	}
+	return result;
+};
+
+/** 用法
+const timestamp = Date.now()
+const result = formatDate(timestamp,'for now')
+console.log(result) //=> 2分钟前
+ */
+
+export default formatDate;

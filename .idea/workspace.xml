@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a698d38-547b-48eb-86e8-300b39f0c97e" name="更改" comment="fix:新增数组，快速排序和冒泡排序 方法">
-      <change afterPath="$PROJECT_DIR$/docs/guide/array/冒泡排序默认从小到大.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/array/快速排序从小到大排序.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/maoPao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/quickSort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/changelog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +65,7 @@
       <workItem from="1698745394404" duration="887000" />
       <workItem from="1699342759301" duration="23000" />
       <workItem from="1699346621847" duration="142000" />
+      <workItem from="1699346768012" duration="14189000" />
     </task>
     <task id="LOCAL-00001" summary="fix:添加方法名">
       <option name="closed" value="true" />
@@ -105,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698745600940</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix:新增数组，快速排序和冒泡排序 方法">
+      <option name="closed" value="true" />
+      <created>1699360094364</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699360094365</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
